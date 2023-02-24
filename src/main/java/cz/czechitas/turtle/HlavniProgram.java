@@ -7,6 +7,9 @@ import java.awt.*;
 public class HlavniProgram {
     private Turtle zofka;
 
+
+
+
     /*
     // další instance třídy (další objekt)
     private.Turtle nela;
@@ -16,7 +19,8 @@ public class HlavniProgram {
 
        zofka = new Turtle();
 
-       nakresliObdelnik(100,200);
+
+       // nakresliObdelnik(100,200);
 
         /* ctverec(100, Color.BLUE);
 
@@ -78,9 +82,11 @@ public class HlavniProgram {
             zofka.move(delkaStranyB);
             zofka.turnRight(90);
 
+
         }
 
     }
+
 
 
 /*
