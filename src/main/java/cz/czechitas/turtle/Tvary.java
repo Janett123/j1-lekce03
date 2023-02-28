@@ -10,7 +10,9 @@ public class Tvary {
     public void start() {
 
         zofka = new Turtle();
-        zofka.setLocation(400,180);
+
+
+        /*zofka.setLocation(400,180);
         zofka.turnRight(90);
 
 
@@ -40,19 +42,20 @@ public class Tvary {
 
 
 
+         */
 
-
-
-
-
-
-
-
-
-
+        //někam System.out.println(x);
+        urciX();
+        System.out.println(urciX());
 
 
     }
+    public double urciX() {
+        double x = zofka.getX();
+        return x;
+
+    }
+
     private void nakresliTrojuhelnik(double strana){
         for (int i = 0; i < 3; i++) {
             zofka.move(strana);
