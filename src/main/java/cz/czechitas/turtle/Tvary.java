@@ -45,7 +45,7 @@ public class Tvary {
          */
 
         //někam System.out.println(x);
-        urciX();
+
         System.out.println(urciX());
 
 
